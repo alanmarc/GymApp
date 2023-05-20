@@ -39,7 +39,7 @@ const Member: React.FC = () => {
             pagina="Miembros"
         >
             <h1 className='text-4xl text-center text-sky-300 my-3'>Miembros de Gym</h1>
-            <div className="flex justify-center items-center h-screen">
+            <div className="flex flex-col justify-center items-center h-100%">
                 {users.map((member) => (
                     <MemberCard key={member.id} user={member} />
                 ))}
