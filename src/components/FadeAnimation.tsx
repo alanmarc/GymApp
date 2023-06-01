@@ -6,7 +6,7 @@ interface FadeAnimationProps {
   children: ReactNode;
 }
 
-const duration = 200;
+const duration = 250;
 
 const defaultStyle = `transition-opacity duration-${duration} ease-linear`;
 

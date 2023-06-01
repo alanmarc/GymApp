@@ -3,6 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['cdn-icons-png.flaticon.com'],
+    domains: ['www.flaticon.es'],
+    
   },
 }
 
