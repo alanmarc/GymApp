@@ -31,7 +31,7 @@ const MemberCard: React.FC<MemberCardProps> = ({ user }) => {
     <div className='text-center w-full'>
       <FadeAnimation show={isShowing}>
         <div
-          className={`flex flex-col bg-white items-center rounded-lg shadow-lg p-6 my-5 w-3/4 ${
+          className={`flex flex-col bg-white items-center rounded-lg shadow-lg p-2 my-5 w-3/4 ${
             isShowing ? 'hover:bg-gray-200' : ''
           } md:w-4/5 md:items-center mx-auto`}
           onMouseEnter={toggleAnimation}
@@ -53,7 +53,7 @@ const MemberCard: React.FC<MemberCardProps> = ({ user }) => {
               <span className='font-medium'>Address:</span> {user.address}
             </p>
           </div>
-          <div className={`m-4 ${isShowing ? 'block' : 'hidden'}`}>
+          <div className={`m-0 ${isShowing ? 'block' : 'hidden'}`}>
             <MenuFunction />
           </div>
         </div>
